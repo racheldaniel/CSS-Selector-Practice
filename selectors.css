@@ -1,0 +1,29 @@
+header {
+  border: 1px solid goldenrod;
+}
+
+header ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+.disabled {
+  color: gray;
+}
+
+a .disabled {
+  color: purple;
+}
+
+.active {
+  color: yellow;
+}
+
+.parent div:first-child{
+  color: red;
+}
+
+.parent div:nth-child(3){
+  color: blue;
+}
